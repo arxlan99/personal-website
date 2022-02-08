@@ -14,7 +14,7 @@ const Container = styled.div`
   padding: 20px;
   border: 1px solid #2f3136;
   max-width: 260px;
-  height: 260px;
+  height: 280px;
   text-align: center;
 
   &:hover {
