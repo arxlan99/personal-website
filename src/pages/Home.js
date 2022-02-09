@@ -8,7 +8,6 @@ import Layout from "../components/Layout";
 import SocialCard from "../components/SocialCard";
 
 const Home = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1000,

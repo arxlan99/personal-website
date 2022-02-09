@@ -440,11 +440,12 @@ const Work = () => {
 };
 
 const CardContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1100px;
+  margin: auto;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  display: flex;
 `;
 
 const Button = styled.button`
