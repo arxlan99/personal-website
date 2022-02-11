@@ -104,7 +104,11 @@ const About = () => {
             </div>
             <div data-aos="fade-left">
               <SocialCard>
-                <a href="https://github.com/arxlan99">
+                <a
+                  href="https://github.com/arxlan99"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="48"
@@ -123,7 +127,11 @@ const About = () => {
             </div>
             <div data-aos="fade-left">
               <SocialCard>
-                <a href="https://www.linkedin.com/in/%C3%B6zkan-arslan-73473620b/">
+                <a
+                  href="https://www.linkedin.com/in/%C3%B6zkan-arslan-73473620b/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
