@@ -1,13 +1,9 @@
-import React, { useEffect } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 const Layout = ({ children }) => {
   const location = useLocation();
-  const homeLocation = location.pathname === "/" ? "true" : "false";
-  useEffect(() => {
-    console.log(homeLocation);
-  }, [homeLocation]);
 
   return (
     <Container>

@@ -24,6 +24,11 @@ const Container = styled.div`
     font-size: 1.2rem;
     font-weight: 400;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: max-content;
+  }
 `;
 
 export default SkilsCard;

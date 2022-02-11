@@ -20,6 +20,7 @@ const Container = styled.div`
   width: 128px;
   height: 128px;
   text-align: center;
+  cursor: pointer;
   &:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
@@ -28,6 +29,10 @@ const Container = styled.div`
     font-size: 1.2rem;
     font-weight: 400;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 

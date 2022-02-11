@@ -25,6 +25,11 @@ const Container = styled.div`
     font-weight: 400;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: max-content;
+  }
 `;
 
 export default PersonalCard;
