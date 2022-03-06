@@ -20,60 +20,65 @@ const Work = () => {
           <WorkCard>
             <Header>
               <Logo width={40} height={40} />
-              <h3>Scribe</h3>
+              <h3>Trend Market By Country</h3>
             </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
+            <p>Lorem ipsum dolor sit amg elit.</p>
+            <Button>Web</Button>
+            <Button>Mobile</Button>
           </WorkCard>
         </div>
         <div data-aos="zoom-in">
           <WorkCard>
             <Header>
               <Logo width={40} height={40} />
-              <h3>Scribe</h3>
+              <h3>Nimo, Twitch Extension</h3>
             </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dol adipisicing elit.</p>
             <Button>Reach</Button>
+            <span>Extension</span>
           </WorkCard>
         </div>
         <div data-aos="zoom-in">
           <WorkCard>
             <Header>
               <Logo width={40} height={40} />
-              <h3>Scribe</h3>
+              <h3>Trending All Social Media</h3>
             </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
+            <p>Lorem ipsconsectetur adipisicing elit.</p>
+            <Button>Web</Button>
+            <Button>Mobile</Button>
           </WorkCard>
         </div>
         <div data-aos="zoom-in">
           <WorkCard>
             <Header>
               <Logo width={40} height={40} />
-              <h3>Scribe</h3>
+              <h3>Linkedin Searching Trends</h3>
             </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
+            <p>Lorem ips dolonsecr adipisicing elit.</p>
+            <Button>Web</Button>
           </WorkCard>
         </div>
         <div data-aos="zoom-in">
           <WorkCard>
             <Header>
               <Logo width={40} height={40} />
-              <h3>Scribe</h3>
+              <h3>Osym Notifications</h3>
             </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
+            <p>Lorem ipsum consetur adipisicing elit.</p>
+            <Button>Web</Button>
+            <Button>Mobile</Button>
           </WorkCard>
         </div>
         <div data-aos="zoom-in">
           <WorkCard>
             <Header>
               <Logo width={40} height={40} />
-              <h3>Scribe</h3>
+              <h3>Country Information</h3>
             </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
+            <p>Lorem sit amconsecx adipisicing elit.</p>
+            <Button>Web</Button>
+            <Button>Mobile</Button>
           </WorkCard>
         </div>
       </CardContainer>

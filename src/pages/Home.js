@@ -22,7 +22,7 @@ const Home = () => {
           <PersonalCard>
             <ImageContainer>
               <img
-                src={require("../assets/avatar.png")}
+                src={require("../assets/glassesAvatar.png")}
                 alt="Avatar"
                 height={100}
               />
@@ -194,6 +194,7 @@ const Button = styled.button`
 
 const CardContainer = styled.div`
   max-width: 1200px;
+
   margin: 0 auto;
   display: flex;
   gap: 20px;
