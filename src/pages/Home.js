@@ -13,6 +13,10 @@ const Home = () => {
     AOS.init({
       duration: 1000,
     });
+
+    return () => {
+      AOS.refresh();
+    };
   }, []);
 
   return (
