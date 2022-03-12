@@ -201,7 +201,7 @@ const About = () => {
             </p>
           </SkilsCard>
         </div>
-        <div data-aos="zoom-in-up">
+        <SkilCardContainer data-aos="zoom-in-up">
           <SkilsCard>
             <h2>My skills and tools</h2>
             <p>
@@ -225,7 +225,7 @@ const About = () => {
               fun stuff!
             </p>
           </SkilsCard>
-        </div>
+        </SkilCardContainer>
       </CardContainer>
     </Layout>
   );
@@ -242,6 +242,10 @@ const CardContainer = styled.div`
 
   @media (max-width: 768px) {
     overflow-x: hidden;
+  }
+
+  @media (max-width: 1280px) {
+    max-width: 900px;
   }
 `;
 
@@ -289,4 +293,11 @@ const CustomizeHeader = styled.h1`
   color: #0ea5e9;
   font-weight: 800;
 `;
+
+const SkilCardContainer = styled.div`
+  @media (max-width: 1280px) {
+    margin-left: 300px;
+  }
+`;
+
 export default About;

@@ -158,6 +158,10 @@ const CardContainer = styled.div`
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+
+  @media (max-width: 1280px) {
+    max-width: 900px;
+  }
 `;
 
 const SocialCardContainer = styled.div`
