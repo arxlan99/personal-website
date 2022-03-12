@@ -239,6 +239,10 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
   display: flex;
   align-content: center;
+
+  @media (max-width: 768px) {
+    overflow-x: hidden;
+  }
 `;
 
 const Content = styled.div`
