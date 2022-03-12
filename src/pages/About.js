@@ -30,7 +30,7 @@ const About = () => {
             <div data-aos="fade-right">
               <SocialCard>
                 <Content>
-                  <CustomizeHeader>600+</CustomizeHeader>
+                  <CustomizeHeader>1000+</CustomizeHeader>
                   <div>commits/y</div>
                 </Content>
               </SocialCard>
@@ -45,20 +45,19 @@ const About = () => {
             </div>
             <div data-aos="fade-right">
               <SocialCard>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>{" "}
-                  <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
+                <a href="/resume.pdf" download>
+                  <svg
+                    width="50"
+                    viewBox="0 0 105 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M50.8739 44.9316C48.8092 48.1767 46.8283 51.3513 42.3896 54.4354C40.0153 56.0997 34.5503 59.3515 26.7823 59.3515C11.9621 59.3515 0 48.5768 0 29.6338C0 13.0781 11.2525 0 27.0983 0C33.518 0 39.2217 2.21927 43.4221 5.5485C47.3063 8.63874 49.1254 11.7298 50.7128 14.5041L39.6217 20.046C38.8281 18.2265 37.873 16.3232 35.4213 14.2651C32.7246 12.123 30.0339 11.4908 27.7305 11.4908C18.6979 11.4908 13.9428 19.8914 13.9428 29.2402C13.9428 41.5247 20.2076 47.6219 27.7305 47.6219C35.0211 47.6219 37.9567 42.5505 39.8539 39.3055L50.8739 44.9318V44.9316ZM89.7273 1.74213H104.625L85.2109 57.687H70.9522L51.7771 1.74213H66.6746L78.243 41.525L89.7273 1.74213Z"
+                      fill="#D1D5DB"
+                    />
+                  </svg>
+                </a>
               </SocialCard>
             </div>
           </SocialCardContainer>

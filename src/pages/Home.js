@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import PersonalCard from "../components/PersonalCard";
-import WorkCard from "../components/WorkCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Layout from "../components/Layout";
 import SocialCard from "../components/SocialCard";
-import { ReactComponent as Logo } from "../assets/anchor.svg";
+import CountryInformation from "../components/Projects/CountryInformation";
+import TrendMarket from "../components/Projects/TrendMarket";
+import TwitchExtension from "../components/Projects/TwitchExtension";
+import DailyWordy from "../components/Projects/DailyWordy";
+import TrendingAllSocial from "../components/Projects/TrendingAllSocial";
 
 const Home = () => {
   useEffect(() => {
@@ -41,42 +44,32 @@ const Home = () => {
         </div>
 
         <div data-aos="zoom-in-left">
-          <WorkCard>
-            <Header>
-              <Logo width={40} height={40} />
-              <h3>Scribe</h3>
-            </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
-          </WorkCard>
+          <DailyWordy />
         </div>
         <div data-aos="zoom-in-left">
-          <WorkCard>
-            <Header>
-              <Logo width={40} height={40} />
-              <h3>Scribe</h3>
-            </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
-          </WorkCard>
+          <TrendingAllSocial />
         </div>
         <SocialCardContainer>
           <div data-aos="fade-right">
+            {/*           <SocialCard>
+              <a href="/resume.pdf" download>
+                <img src={require("../assets/cv.png")} alt="" width={60} />
+              </a>
+            </SocialCard> */}
             <SocialCard>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50.121"
-                height="45.052"
-                viewBox="0 0 75.121 61.052"
-              >
-                <path
-                  d="M75.063,12.844a30.83,30.83,0,0,1-8.858,2.43A15.451,15.451,0,0,0,72.984,6.75,30.947,30.947,0,0,1,63.2,10.485,15.418,15.418,0,0,0,36.937,24.542,43.765,43.765,0,0,1,5.17,8.441,15.445,15.445,0,0,0,9.94,29.019a15.4,15.4,0,0,1-6.984-1.932v.193A15.438,15.438,0,0,0,15.317,42.4a15.421,15.421,0,0,1-4.057.538,14.847,14.847,0,0,1-2.9-.28,15.447,15.447,0,0,0,14.4,10.709,30.9,30.9,0,0,1-19.14,6.595,30.3,30.3,0,0,1-3.671-.217A43.544,43.544,0,0,0,23.56,66.666c28.348,0,43.852-23.483,43.852-43.846,0-.667-.018-1.341-.04-2a31.325,31.325,0,0,0,7.692-7.98Z"
-                  transform="translate(0.058 -5.614)"
-                  style={{
-                    fill: "#d1d5db",
-                  }}
-                ></path>
-              </svg>
+              <a href="/resume.pdf" download>
+                <svg
+                  width="50"
+                  viewBox="0 0 105 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M50.8739 44.9316C48.8092 48.1767 46.8283 51.3513 42.3896 54.4354C40.0153 56.0997 34.5503 59.3515 26.7823 59.3515C11.9621 59.3515 0 48.5768 0 29.6338C0 13.0781 11.2525 0 27.0983 0C33.518 0 39.2217 2.21927 43.4221 5.5485C47.3063 8.63874 49.1254 11.7298 50.7128 14.5041L39.6217 20.046C38.8281 18.2265 37.873 16.3232 35.4213 14.2651C32.7246 12.123 30.0339 11.4908 27.7305 11.4908C18.6979 11.4908 13.9428 19.8914 13.9428 29.2402C13.9428 41.5247 20.2076 47.6219 27.7305 47.6219C35.0211 47.6219 37.9567 42.5505 39.8539 39.3055L50.8739 44.9318V44.9316ZM89.7273 1.74213H104.625L85.2109 57.687H70.9522L51.7771 1.74213H66.6746L78.243 41.525L89.7273 1.74213Z"
+                    fill="#D1D5DB"
+                  />
+                </svg>
+              </a>
             </SocialCard>
           </div>
           <div data-aos="fade-right">
@@ -103,15 +96,15 @@ const Home = () => {
                 width="40"
                 height="40"
                 viewBox="0 0 24 24"
-                fill="#fff"
-                stroke="currentColor"
+                fill="#d1d5db"
+                stroke="#d1d5db"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
                 <path
                   style={{
-                    fill: "#fff",
+                    fill: "#d1d5db",
                   }}
                   d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
                 ></path>{" "}
@@ -128,7 +121,7 @@ const Home = () => {
                 height="40"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="#d1d5db"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -140,34 +133,13 @@ const Home = () => {
           </div>
         </SocialCardContainer>
         <div data-aos="zoom-in-left">
-          <WorkCard>
-            <Header>
-              <Logo width={40} height={40} />
-              <h3>Scribe</h3>
-            </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
-          </WorkCard>
+          <CountryInformation />
         </div>
         <div data-aos="zoom-in-left">
-          <WorkCard>
-            <Header>
-              <Logo width={40} height={40} />
-              <h3>Scribe</h3>
-            </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
-          </WorkCard>
+          <TrendMarket />
         </div>
         <div data-aos="zoom-in-left">
-          <WorkCard>
-            <Header>
-              <Logo width={40} height={40} />
-              <h3>Scribe</h3>
-            </Header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Button>Reach</Button>
-          </WorkCard>
+          <TwitchExtension />
         </div>
       </CardContainer>
     </Layout>
@@ -179,23 +151,6 @@ const ImageContainer = styled.div`
   justify-content: center;
 `;
 
-const Button = styled.button`
-  background: transparent;
-  border-radius: 12px;
-  border: 2px solid gray;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  cursor: pointer;
-  font-size: 1.02rem;
-  font-weight: bold;
-  transition: all 0.2s ease-in-out;
-  font-weight: 600;
-  &:hover {
-    opacity: 0.8;
-  }
-`;
-
 const CardContainer = styled.div`
   max-width: 1200px;
 
@@ -203,16 +158,6 @@ const CardContainer = styled.div`
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-`;
-
-const Header = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  & > svg {
-    margin-right: 12px;
-  }
 `;
 
 const SocialCardContainer = styled.div`
