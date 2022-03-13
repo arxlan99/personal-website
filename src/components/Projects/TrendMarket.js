@@ -4,18 +4,27 @@ import WorkCard from "../WorkCard";
 import { ReactComponent as Logo } from "../../assets/anchor.svg";
 import { FaAppStoreIos } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { MdExtension } from "react-icons/md";
+import { Link } from "react-router-dom";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { VscGlobe } from "react-icons/vsc";
 
 const TrendMarket = () => {
   return (
     <WorkCard>
       <Header>
         <Logo width={40} height={40} />
-        <h3>Trend Market By Country</h3>
+        <Link to="/" target="_blank">
+          <h3>
+            Trend Market By Country {"  "}
+            <FaExternalLinkAlt color="gray" size={12} />
+          </h3>
+        </Link>
       </Header>
       <p>Lorem ipsum dolor sit amg elit.</p>
       <Footer>
-        <Button>Web</Button>
+        <IconContainer>
+          <VscGlobe color="#5293E1" size={30} />{" "}
+        </IconContainer>{" "}
         <IconContainer>
           <FaAppStoreIos color="#5293E1" size={30} />{" "}
         </IconContainer>

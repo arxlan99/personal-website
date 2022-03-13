@@ -3,17 +3,27 @@ import styled from "styled-components";
 import WorkCard from "../WorkCard";
 import { ReactComponent as Logo } from "../../assets/anchor.svg";
 import { MdExtension } from "react-icons/md";
+import { Link } from "react-router-dom";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { VscGlobe } from "react-icons/vsc";
 
 const TwitchExtension = () => {
   return (
     <WorkCard>
       <Header>
         <Logo width={40} height={40} />
-        <h3>Nimo, Twitch Extension</h3>
+        <Link to="/" target="_blank">
+          <h3>
+            Nimo, Twitch Extension {"  "}
+            <FaExternalLinkAlt color="gray" size={12} />
+          </h3>
+        </Link>
       </Header>
       <p>Lorem ipsum dol adipisicing elit.</p>
       <Footer>
-        <Button>Web</Button>
+        <IconContainer>
+          <VscGlobe color="#5293E1" size={30} />{" "}
+        </IconContainer>{" "}
         <IconContainer>
           <MdExtension color="#94a3b8" size={30} />{" "}
         </IconContainer>

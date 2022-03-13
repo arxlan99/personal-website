@@ -74,8 +74,8 @@ const About = () => {
 
             <p>
               Hello 👋 ! I'm <CustomizeText>Ozkan</CustomizeText>, a Frontend
-              developer and indie maker from Turkey. I work with React, React
-              Native, Figma, and a laptop. Oh and I'm very funny.
+              developer and indie maker from Turkey. I work with
+              React.js, React Native, Node.js and a laptop 🙂
             </p>
           </PersonalCard>
         </div>
