@@ -15,6 +15,7 @@ import LinkedinSearching from "../components/Projects/LinkedinSearching";
 import Osym from "../components/Projects/Osym";
 import CountryInformation from "../components/Projects/CountryInformation";
 import DailyWordy from "../components/Projects/DailyWordy";
+import FantasticUI from "../components/Projects/FantasticUI";
 
 const Work = () => {
   useEffect(() => {
@@ -46,6 +47,9 @@ const Work = () => {
         </div>
         <div data-aos="zoom-in">
           <DailyWordy />
+        </div>
+        <div data-aos="zoom-in">
+          <FantasticUI />
         </div>
       </CardContainer>
     </Layout>
