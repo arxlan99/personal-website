@@ -45,7 +45,7 @@ const Home = () => {
         </div>
 
         <SocialCardContainer>
-          <div data-aos="fade-right">
+          <div data-aos="fade-left">
             {/*           <SocialCard>
               <a href="/resume.pdf" download>
                 <img src={require("../assets/cv.png")} alt="" width={60} />
@@ -67,7 +67,7 @@ const Home = () => {
               </a>
             </SocialCard>
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-left">
             <SocialCard>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const Home = () => {
               </svg>
             </SocialCard>
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-left">
             <SocialCard>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Home = () => {
               </svg>
             </SocialCard>
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-left">
             <SocialCard>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -128,20 +128,20 @@ const Home = () => {
           </div>
         </SocialCardContainer>
 
-        <div data-aos="zoom-in-left">
+        <div data-aos="fade-left">
           <DarkMode />
         </div>
 
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-right">
           <TrendingAllSocial />
         </div>
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-right">
           <CountryInformation />
         </div>
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-left">
           <TrendMarket />
         </div>
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-left">
           <TwitchExtension />
         </div>
       </CardContainer>
