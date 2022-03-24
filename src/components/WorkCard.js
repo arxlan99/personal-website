@@ -13,7 +13,7 @@ const Container = styled.div`
   height: max-content;
   padding: 20px;
   border: 3px solid #27272a;
-  width: 260px;
+  width: 265px;
   height: 280px;
   text-align: center;
 

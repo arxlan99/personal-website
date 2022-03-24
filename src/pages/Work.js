@@ -57,7 +57,7 @@ const Work = () => {
 };
 
 const CardContainer = styled.div`
-  max-width: 1100px;
+  max-width: 1120px;
   margin: auto;
   display: flex;
   gap: 20px;

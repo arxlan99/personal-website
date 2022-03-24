@@ -10,6 +10,7 @@ import TrendMarket from "../components/Projects/TrendMarket";
 import TwitchExtension from "../components/Projects/TwitchExtension";
 import DailyWordy from "../components/Projects/DailyWordy";
 import TrendingAllSocial from "../components/Projects/TrendingAllSocial";
+import DarkMode from "../components/Projects/DarkMode";
 
 const Home = () => {
   useEffect(() => {
@@ -43,12 +44,6 @@ const Home = () => {
           </PersonalCard>
         </div>
 
-        <div data-aos="zoom-in-left">
-          <DailyWordy />
-        </div>
-        <div data-aos="zoom-in-left">
-          <TrendingAllSocial />
-        </div>
         <SocialCardContainer>
           <div data-aos="fade-right">
             {/*           <SocialCard>
@@ -132,13 +127,21 @@ const Home = () => {
             </SocialCard>
           </div>
         </SocialCardContainer>
+
         <div data-aos="zoom-in-left">
+          <DarkMode />
+        </div>
+
+        <div data-aos="zoom-in-up">
+          <TrendingAllSocial />
+        </div>
+        <div data-aos="zoom-in-up">
           <CountryInformation />
         </div>
-        <div data-aos="zoom-in-left">
+        <div data-aos="zoom-in-up">
           <TrendMarket />
         </div>
-        <div data-aos="zoom-in-left">
+        <div data-aos="zoom-in-up">
           <TwitchExtension />
         </div>
       </CardContainer>
