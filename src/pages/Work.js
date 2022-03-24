@@ -18,12 +18,6 @@ import DailyWordy from "../components/Projects/DailyWordy";
 import FantasticUI from "../components/Projects/FantasticUI";
 
 const Work = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
-
   return (
     <Layout>
       <CardContainer>

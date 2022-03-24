@@ -4,16 +4,9 @@ import Layout from "../components/Layout";
 import PersonalCard from "../components/PersonalCard";
 import SkilsCard from "../components/SkilsCard";
 import SocialCard from "../components/SocialCard";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 const About = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
-
   return (
     <Layout>
       <CardContainer>

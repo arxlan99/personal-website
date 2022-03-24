@@ -3,8 +3,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+
+    return () => {
+      Aos.refresh();
+    };
+  }, []);
+
   return (
     <>
       <BrowserRouter>

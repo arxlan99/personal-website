@@ -13,16 +13,6 @@ import TrendingAllSocial from "../components/Projects/TrendingAllSocial";
 import DarkMode from "../components/Projects/DarkMode";
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-
-    return () => {
-      AOS.refresh();
-    };
-  }, []);
-
   return (
     <Layout>
       <CardContainer>
