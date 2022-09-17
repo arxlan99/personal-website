@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components";
-import WorkCard from "../WorkCard";
-import { ReactComponent as Logo } from "../../assets/anchor.svg";
-import { MdExtension } from "react-icons/md";
-import { Link } from "react-router-dom";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { VscGlobe } from "react-icons/vsc";
+import React from 'react';
+import styled from 'styled-components';
+import WorkCard from '../WorkCard';
+import { ReactComponent as Logo } from '../../assets/anchor.svg';
+import { MdExtension } from 'react-icons/md';
+import { Link } from 'react-router-dom';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+import { VscGlobe } from 'react-icons/vsc';
 
 const TwitchExtension = () => {
   return (
@@ -14,7 +14,7 @@ const TwitchExtension = () => {
         <Logo width={40} height={40} />
         <Link to="/" target="_blank">
           <h3>
-            Nimo, Twitch Extension {"  "}
+            Twitch Extension {'  '}
             <FaExternalLinkAlt color="gray" size={12} />
           </h3>
         </Link>
@@ -22,10 +22,10 @@ const TwitchExtension = () => {
       <p>Lorem ipsum dol adipisicing elit.</p>
       <Footer>
         <IconContainer>
-          <VscGlobe color="#5293E1" size={30} />{" "}
-        </IconContainer>{" "}
+          <VscGlobe color="#5293E1" size={30} />{' '}
+        </IconContainer>{' '}
         <IconContainer>
-          <MdExtension color="#94a3b8" size={30} />{" "}
+          <MdExtension color="#94a3b8" size={30} />{' '}
         </IconContainer>
       </Footer>
     </WorkCard>

@@ -1,12 +1,12 @@
-import React from "react";
-import styled from "styled-components";
-import WorkCard from "../WorkCard";
-import { ReactComponent as Logo } from "../../assets/anchor.svg";
-import { FaAppStoreIos } from "react-icons/fa";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { Link } from "react-router-dom";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { VscGlobe } from "react-icons/vsc";
+import React from 'react';
+import styled from 'styled-components';
+import WorkCard from '../WorkCard';
+import { ReactComponent as Logo } from '../../assets/anchor.svg';
+import { FaAppStoreIos } from 'react-icons/fa';
+import { IoLogoGooglePlaystore } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+import { VscGlobe } from 'react-icons/vsc';
 
 const Osym = () => {
   return (
@@ -15,7 +15,7 @@ const Osym = () => {
         <Logo width={40} height={40} />
         <Link to="/" target="_blank">
           <h3>
-            Osym Notifications {"  "}
+            Notifications {'  '}
             <FaExternalLinkAlt color="gray" size={12} />
           </h3>
         </Link>
@@ -23,13 +23,13 @@ const Osym = () => {
       <p>Lorem ipsum consetur adipisicing elit.</p>
       <Footer>
         <IconContainer>
-          <VscGlobe color="#5293E1" size={30} />{" "}
+          <VscGlobe color="#5293E1" size={30} />{' '}
         </IconContainer>
         <IconContainer>
-          <FaAppStoreIos color="#5293E1" size={30} />{" "}
+          <FaAppStoreIos color="#5293E1" size={30} />{' '}
         </IconContainer>
         <IconContainer>
-          <IoLogoGooglePlaystore color="#0BEF76" size={30} />{" "}
+          <IoLogoGooglePlaystore color="#0BEF76" size={30} />{' '}
         </IconContainer>
       </Footer>
     </WorkCard>
